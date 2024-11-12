@@ -3,17 +3,17 @@
 #define PWM_Pulse 4095     
 #define MOTOR_FREQ 50
 // Motor Trên góc Trái
-#define MOTOR_CHANNEL_A1 8      
-#define MOTOR_CHANNEL_A2 9    
+#define MOTOR_CHANNEL_A1 15      
+#define MOTOR_CHANNEL_A2 16 
 // Motor Trên góc Phải
-#define MOTOR_CHANNEL_B1 10   
-#define MOTOR_CHANNEL_B2 11   
+#define MOTOR_CHANNEL_B1 17
+#define MOTOR_CHANNEL_B2 18
 // Motor Dưới góc Phải
-#define MOTOR_CHANNEL_C1 12
-#define MOTOR_CHANNEL_C2 13
+#define MOTOR_CHANNEL_C1 21
+#define MOTOR_CHANNEL_C2 22
 // Motor Dưới góc Trái
-#define MOTOR_CHANNEL_D1 14
-#define MOTOR_CHANNEL_D2 15
+#define MOTOR_CHANNEL_D1 19
+#define MOTOR_CHANNEL_D2 20
 
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x40);   
 
